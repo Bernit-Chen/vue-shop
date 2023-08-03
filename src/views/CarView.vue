@@ -14,7 +14,6 @@
 <script setup>
   import {ref} from "vue";
   import router from "@/router";
-  const total=ref(localStorage.getItem("totalpass"))
   const last=ref(localStorage.getItem("lastpass"))
   const quantity1=ref(localStorage.getItem("quantity1pass"))
   const quantity2=ref(localStorage.getItem("quantity2pass"))
