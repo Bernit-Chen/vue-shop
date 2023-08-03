@@ -15,6 +15,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: "https://bernit-chen.github.io/Shop/"
+  base: "https://bernit-chen.github.io/Shop/",
+  build:{
+    outDir:"docs",
+  }
 
 })
